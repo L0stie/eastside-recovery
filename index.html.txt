@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eastside Recovery & Vehicle Movements</title>
+
+<style>
+body {font-family: Arial; margin:0; line-height:1.6;}
+header {background:#111; color:white; padding:20px; text-align:center;}
+nav a {color:white; margin:0 15px; text-decoration:none;}
+.hero {background:url('truck.jpg') center/cover; color:white; padding:120px 20px; text-align:center;}
+.section {padding:60px 20px; max-width:1100px; margin:auto;}
+.services {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+.card {background:#f4f4f4; padding:20px; border-radius:8px;}
+.gallery img {width:100%; border-radius:8px;}
+.gallery {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:15px;}
+footer {background:#111; color:white; text-align:center; padding:30px;}
+.btn {background:#e63946; color:white; padding:12px 20px; text-decoration:none; border-radius:6px;}
+input, textarea {width:100%; padding:10px; margin:10px 0;}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Eastside Recovery & Vehicle Movements</h1>
+<nav>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#reviews">Reviews</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Fast • Reliable • Nationwide Vehicle Recovery</h2>
+<p>24/7 Breakdown Recovery & Vehicle Transport</p>
+<a class="btn" href="#contact">Request Recovery</a>
+</section>
+
+<section id="services" class="section">
+<h2>Our Services</h2>
+<div class="services">
+
+<div class="card">
+<h3>Breakdown Recovery</h3>
+<p>24/7 emergency recovery for cars, vans and motorcycles.</p>
+</div>
+
+<div class="card">
+<h3>Vehicle Transport</h3>
+<p>Safe and secure nationwide vehicle transportation.</p>
+</div>
+
+<div class="card">
+<h3>Accident Recovery</h3>
+<p>Fast response accident and insurance recovery.</p>
+</div>
+
+<div class="card">
+<h3>Trade & Auction Collection</h3>
+<p>Vehicle collection & delivery for dealerships and traders.</p>
+</div>
+
+</div>
+</section>
+
+<section id="gallery" class="section">
+<h2>Our Work</h2>
+<div class="gallery">
+<img src="photo1.jpg">
+<img src="photo2.jpg">
+<img src="photo3.jpg">
+<img src="photo4.jpg">
+</div>
+<p>👉 Replace these with photos from your Facebook page.</p>
+</section>
+
+<section id="reviews" class="section">
+<h2>Find Us Online</h2>
+<p>
+<a class="btn" href="https://www.facebook.com/p/Eastside-vehicle-movements-recovery-100070754712883/" target="_blank">Facebook</a>
+<a class="btn" href="https://www.yell.com/biz/eastside-recovery-and-vehicle-movement-nottingham-901732533/" target="_blank">Yell Reviews</a>
+<a class="btn" href="https://share.google/KLAFbOQkHVDRddTBe" target="_blank">Google Listing</a>
+</p>
+</section>
+
+<section id="contact" class="section">
+<h2>Email Us</h2>
+
+<form action="https://formsubmit.co/EastsideRecovery2022@outlook.com" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="tel" name="phone" placeholder="Phone Number" required>
+<textarea name="message" placeholder="How can we help?" required></textarea>
+
+<input type="hidden" name="_captcha" value="false">
+<button class="btn" type="submit">Send Message</button>
+</form>
+
+<p>You can also email directly: <b>EastsideRecovery2022@outlook.com</b></p>
+</section>
+
+<footer>
+<p>© 2026 Eastside Recovery & Vehicle Movements</p>
+<p>24/7 Vehicle Recovery & Transport</p>
+</footer>
+
+</body>
+</html>
